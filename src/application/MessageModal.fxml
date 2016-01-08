@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import appliacation.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MessageModalController">
+   <children>
+      <AnchorPane maxHeight="150.0" maxWidth="350.0" minHeight="150.0" minWidth="350.0" prefHeight="150.0" prefWidth="350.0">
+         <children>
+            <Label fx:id="lbl_message" alignment="CENTER" contentDisplay="CENTER" layoutX="158.0" layoutY="34.0" />
+            <Button fx:id="btn_ok" layoutX="157.0" layoutY="109.0" mnemonicParsing="false" text="OK" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="157.0" AnchorPane.rightAnchor="156.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
